@@ -1,0 +1,64 @@
+table {
+  border-collapse: collapse;
+}
+/* head */
+table thead tr {
+  background-color: #6a7cf2;
+}
+table thead tr th {
+  color: white;
+  padding: 10px;
+}
+/* body */
+table tbody tr {
+  border-bottom: 2px solid #e0e0e0;
+}
+table tbody tr td {
+  padding: 10px;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #adf0ff;
+}
+table tbody tr:last-child {
+  border: none;
+}
+/* footer */
+table tfoot tr td {
+  padding: 10px;
+}
+table tfoot {
+  background-color: #4c5ed1;
+  color: white;
+  font-weight: bold;
+}
+/* 
+1) Doirect selector (>)
+2) Psudo classes
+    a) :first-child
+    a) :first-of-type
+    #p:first-of-type
+    -------------------
+    b)last-child
+    b)last-of-type
+    #p:first-of-type
+    --------------------
+    c) nth-child(odd or even)
+    ----------------------
+    Link psudo
+    d) a:visited
+       a:link
+       a:hover
+       a:focus
+
+3) Psudo Element
+    a) p::first-letter
+    b) p::first-line
+    c) p::selection
+    d) p::after
+    e) p::before
+
+4) selector specificity
+    a) 
+
+5) linear gradient.
+*/
